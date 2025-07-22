@@ -21,6 +21,7 @@ export const HeroSection = () => {
               variant="cta" 
               size="lg" 
               className="text-lg px-8 py-4 h-auto animate-pulse hover:animate-none"
+              onClick={() => window.open("https://buy.stripe.com/aFa3cx0B4dy17YF1Fe6Zy00", '_blank')}
             >
               💡 Quiero mi Diagnóstico por 9€
             </Button>

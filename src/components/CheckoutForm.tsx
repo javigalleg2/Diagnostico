@@ -20,8 +20,10 @@ export const CheckoutForm = () => {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    // Aquí se integraría con Stripe o PayPal
-    console.log("Datos del formulario:", { ...formData, plan: selectedPlan });
+    const paymentUrl = selectedPlan === "basic" 
+      ? "https://buy.stripe.com/aFa3cx0B4dy17YF1Fe6Zy00"
+      : "https://buy.stripe.com/9B6fZj5Vo0Lf4MtcjS6Zy01";
+    window.open(paymentUrl, '_blank');
   };
 
   return (

@@ -49,7 +49,12 @@ export const UrgencySection = () => {
               </p>
             </div>
 
-            <Button variant="cta" size="lg" className="text-xl px-12 py-6 h-auto animate-pulse hover:animate-none">
+            <Button 
+              variant="cta" 
+              size="lg" 
+              className="text-xl px-12 py-6 h-auto animate-pulse hover:animate-none"
+              onClick={() => window.open("https://buy.stripe.com/aFa3cx0B4dy17YF1Fe6Zy00", '_blank')}
+            >
               ✅ Quiero reservar mi Diagnóstico ahora
             </Button>
           </div>

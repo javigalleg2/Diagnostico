@@ -52,7 +52,12 @@ export const ValueSection = () => {
             </div>
 
             <div className="text-center">
-              <Button variant="cta" size="lg" className="text-lg px-8 py-4 h-auto">
+              <Button 
+                variant="cta" 
+                size="lg" 
+                className="text-lg px-8 py-4 h-auto"
+                onClick={() => window.open("https://buy.stripe.com/aFa3cx0B4dy17YF1Fe6Zy00", '_blank')}
+              >
                 🚀 Quiero potenciar mi imagen ya
               </Button>
             </div>

@@ -36,7 +36,12 @@ export const TargetSection = () => {
             </div>
           </div>
 
-          <Button variant="secondary" size="lg" className="text-lg px-8 py-4 h-auto">
+          <Button 
+            variant="secondary" 
+            size="lg" 
+            className="text-lg px-8 py-4 h-auto"
+            onClick={() => window.open("https://buy.stripe.com/aFa3cx0B4dy17YF1Fe6Zy00", '_blank')}
+          >
             🎯 Quiero un análisis rápido de mi negocio
           </Button>
         </div>

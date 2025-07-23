@@ -46,7 +46,12 @@ export const GuaranteeSection = () => {
               </p>
             </div>
             
-            <Button variant="success" size="lg" className="text-lg px-8 py-4 h-auto">
+            <Button 
+              variant="success" 
+              size="lg" 
+              className="text-lg px-8 py-4 h-auto"
+              onClick={() => window.open("https://buy.stripe.com/aFa3cx0B4dy17YF1Fe6Zy00", '_blank')}
+            >
               Haz clic aquí, no pierdes nada
             </Button>
           </div>
